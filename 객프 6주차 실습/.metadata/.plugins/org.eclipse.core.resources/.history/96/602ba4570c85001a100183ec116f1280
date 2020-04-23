@@ -1,0 +1,20 @@
+package week06_3;
+
+public class Child extends Parent {
+	public static void method1(Parent p) {
+		// Child type으로 변환이 가능한지 확인
+		if(p instanceof Child) {
+			// 강제 형 변환이 이루어짐
+			Child c = (Child) p;
+			System.out.println("method1 - child로 변환 성공");
+		}else {
+			System.out.println("method2 - child로 변환 실패");
+		}
+	}
+	
+	public static void method2(Parent p) {
+		// 변환이 가능한지 확인하는 기능이 없으므로 에러가 발생할 수  있음
+		Child c = (Child) p;
+		System.out.println("method2 - child로 변환 성공");
+	}
+}

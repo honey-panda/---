@@ -1,0 +1,13 @@
+package kimdaeheon_assignment;
+
+public class Member {
+	protected String clientName;
+	protected String contact;
+	protected int purchaseNum;
+	
+	public Member(String clientName, String contact, int purchaseNum) {
+		this.clientName = clientName;
+		this.contact = contact;
+		this.purchaseNum = purchaseNum;
+	}
+}

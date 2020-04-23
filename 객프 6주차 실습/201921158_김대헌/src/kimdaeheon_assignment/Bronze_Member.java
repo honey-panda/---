@@ -1,0 +1,5 @@
+package kimdaeheon_assignment;
+
+public class Bronze_Member extends Member{
+	
+}
