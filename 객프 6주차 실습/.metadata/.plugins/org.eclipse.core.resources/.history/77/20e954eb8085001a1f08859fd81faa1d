@@ -1,0 +1,12 @@
+package kimdaeheon_assignment;
+
+public class Bronze_Member extends Member{
+	public Bronze_Member(String clientName, String contact, int purchaseNum) {
+		super(clientName, contact, purchaseNum);
+	}
+	
+	@override
+	public double calcSales() {
+		return 1000 * purchaseNum;
+	}
+}

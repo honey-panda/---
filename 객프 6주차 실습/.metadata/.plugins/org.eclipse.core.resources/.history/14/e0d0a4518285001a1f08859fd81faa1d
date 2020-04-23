@@ -1,0 +1,23 @@
+package kimdaeheon_assignment;
+
+public class Silver_Member extends Member {
+	private double discountRate; // 할인율
+	
+	public Silver_Member(String clientName, String contact, int purchaseNum, double discountRate) {
+		super(clientName, contact, purchaseNum); // Member클래스 생성자에 인자 전달
+		this.discountRate = discountRate; // Silver의 할인율
+	}
+	
+	public double getDiscountRate() {
+		return discountRate; // discountRate getter
+	}
+	
+	public void setDiscountRate(double discountRate) {
+		this.discountRate = discountRate; // discountRate setter
+	}
+	
+	@Override
+	public double calcSales(double discountRate) {
+		return 1000 * purchaseNum * discountRate;
+	}
+}

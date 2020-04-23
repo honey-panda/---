@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="week06_2.Rectangle"/>
     <fullyQualifiedTypeName name="week06_2.Triangle"/>
     <fullyQualifiedTypeName name="week06_3.Child"/>
+    <fullyQualifiedTypeName name="kimdaeheon_assignment.Bronze_Member"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="kimdaeheon_assignment.Silver_Member"/>
+    <fullyQualifiedTypeName name="kimdaeheon_assignment.Gold_Member"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.nodes.graphbuilderconf.InvocationPlugins.Registration"/>
 </qualifiedTypeNameHistroy>

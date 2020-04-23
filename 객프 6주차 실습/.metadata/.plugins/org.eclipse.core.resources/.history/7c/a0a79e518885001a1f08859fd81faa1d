@@ -1,0 +1,53 @@
+package kimdaeheon_assignment;
+import java.util.Scanner;
+import java.util.ArrayList;
+
+public class MemberTest {
+	static Scanner input = null; // input Scanner 초기화
+	
+	public static void main(String args[]) { // main 메소드
+		input = new Scanner(System.in); // input
+		ArrayList<Member> myMember = new ArrayList<>(); // MemberList 생성
+		
+		
+	}
+	
+	// 전체 탭
+	public static void programStart() {
+		boolean flag = true;
+		while(flag) {
+			System.out.println("1. Bronze 등급 고객 등록");
+			System.out.println("2. Silver 등급 고객 등록");
+			System.out.println("3. Gold 등급 고객 등록");
+			System.out.println("4. 총 매출액 정산");
+			System.out.println("5. 종료");
+			switch(input.nextInt()) {
+			case 1:
+				break;
+			case 2:
+				break;
+			case 3: 
+				break;
+			case 4:
+				break;
+			case 5:
+				System.out.println("프로그램을 종료합니다.");
+				flag = false;
+			}
+		}
+	}
+	// Bronze
+	public static void inputClient() {
+		System.out.println("고객 이름을 입력하세요");
+		String clientName = input.next();
+		System.out.println("고객 연락처를 입력하세요");
+		String contact = input.next();
+		System.out.println("구매 개수를 입력하세요");
+		int purchaseNum = input.nextInt();
+		System.out.println("입력되었습니다.");
+
+	}
+	
+}
+
+

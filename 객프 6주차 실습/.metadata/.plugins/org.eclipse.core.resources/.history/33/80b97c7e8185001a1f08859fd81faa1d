@@ -1,0 +1,9 @@
+package kimdaeheon_assignment;
+
+public class Silver_Member extends Member {
+	private double discountRate;
+	public Silver_Member(String clientName, String contact, int purchaseNum, double discountRate) {
+		super(clientName, contact, purchaseNum);
+		this.discountRate = discountRate;
+	}
+}
